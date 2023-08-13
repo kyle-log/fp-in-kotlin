@@ -1,0 +1,25 @@
+### tools ###
+.gradle
+build/
+
+.idea
+*.iws
+*.iml
+*.ipr
+.run
+out/
+
+.vscode/
+.settings
+.project
+.classpath
+
+### projects ###
+**_script/src/main/resources/*.csv
+**_script/src/main/resources/*.txt
+**/generated/main/grpc
+**/generated/main/java
+**/mysql-*-dump.sql
+**/application-local-override.yml
+**/karrotmarket-community.json
+**/http-client.private.env.json
